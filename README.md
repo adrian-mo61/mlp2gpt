@@ -29,8 +29,6 @@ mlp2gpt/
 │   ├── model.py                #   模型定义:三层 MLP + ReLU + Dropout
 │   ├── train.py                #   训练循环:训练/验证 + 保存最佳模型
 │   └── infer.py                #   推理脚本:单张图片预测
-├── blogs/                      # 每个阶段配套的博客文章
-│   └── 01-mlp-mnist.md         #   从 MLP 到 GPT(一):手写 MLP 识别手写数字
 └── models/                     # 训练产出的权重(git 忽略)
 ```
 
