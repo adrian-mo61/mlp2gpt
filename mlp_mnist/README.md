@@ -81,4 +81,4 @@ Epoch 1/5 | Train Loss: 0.___ | Val Loss: 0.___ | Val Acc: 0.9___
 
 这一步覆盖了路线图阶段 0 的目标:能默写训练循环、理解交叉熵 + 反向传播由 `autograd` 完成。下一步(阶段 1)把"拉平的像素向量"换成"token embedding + attention",复用完全相同的训练循环去训一个手写 GPT。
 
-详细解读见博客:[从 MLP 到 GPT(一)](../blogs/01-mlp-mnist.md)。
+详细解读见博客:[从 MLP 到 GPT(一)](https://adrian-mo61.github.io/posts/mlp-mnist/)。
