@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, random_split
 from modelscope import MsDataset
 
-# 导入你的模块（确保 model.py 和 data.py 在同一目录）
+
 from model import MnistModel
 from data import MnistDataset, transform
 
